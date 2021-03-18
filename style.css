@@ -1,0 +1,37 @@
+body,html{height:100%;margin:0;}
+body {
+  background-color:white;
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*Navigation-bar background layer*/
+ul {
+  background-color: rgb(204, 204, 204);
+  list-style-type: none;
+  height: 45px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin:auto;
+  padding:0;
+}
+/*Navigation-bar links positioning*/
+li {
+  float: left;
+  display: inline;
+}
+/*Navigation-bar link boxes and text positioning*/
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+}
+/*[Navigation-bar]For all the links hovered over only the one with 'active' class will not turn red*/
+li a:hover:not(.active) {
+  background-color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+/*[Navigation-bar]The active class will be this background color*/
+.active {
+  background-color: rgb(155, 155, 155);
+}
