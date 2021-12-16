@@ -6,16 +6,16 @@ var write = ['blah blah blah'];
 var date1 = ['3/18/2021'];
 var cit1 = ['doms vid'];
 
-function showart() {
-  for (var i = 0;i < head1.length;i++) {
-    if (type[i] == "vid") {
-      document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+head1[i]+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div>"+head2[i]+"</div>";
-    }
-    else {
-      document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+head1[i]+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div>"+head2[i]+"</div>";
-    }
+
+for (var i = 0;i < head1.length;i++) {
+  if (type[i] == "vid") {
+    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+head1[i]+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div>"+head2[i]+"</div>";
+  }
+  else {
+    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+head1[i]+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div>"+head2[i]+"</div>";
   }
 }
+
 function artshow(art) {
   var theart = head1.indexOf(art);
   document.getElementById('art1').style.display = 'block';
