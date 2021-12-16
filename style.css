@@ -84,6 +84,9 @@ a:hover {
   color:rgb(104, 104, 223);
   text-decoration:underline;
 }
+.opacityimg {
+  transition:0.25s linear;
+}
 .opacityimg:hover {
   opacity:0.8;
 }
