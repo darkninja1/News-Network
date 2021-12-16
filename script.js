@@ -6,16 +6,6 @@ var write = ['blah blah blah','heh'];
 var date1 = ['3/18/2021','5/6/19'];
 var cit1 = ['meh','meg'];
 
-
-for (var i = 0;i < head1.length;i++) {
-  if (type[i] == "vid") {
-    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div>"+head2[i]+"</div>";
-  }
-  else {
-    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div>"+head2[i]+"</div>";
-  }
-}
-
 function artshow(art) {
   var theart = art;
   document.getElementById('art1').style.display = 'block';
@@ -26,3 +16,13 @@ function artshow(art) {
   document.getElementById('art2').innerHTML = write[theart];
   
 }
+
+for (var i = 0;i < head1.length;i++) {
+  if (type[i] == "vid") {
+    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div>"+head2[i]+"</div>";
+  }
+  else {
+    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div>"+head2[i]+"</div>";
+  }
+}
+
