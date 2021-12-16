@@ -129,6 +129,7 @@ close1
   display:none;
 }
 #close1 {
+  background-color:transparent;
   color: rgba(255, 255, 255, 0.562);
   font-weight:bold;
   position:fixed;

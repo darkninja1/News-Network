@@ -7,13 +7,12 @@ var date1 = ['3/18/2021','5/6/19'];
 var cit1 = ['meh','meg'];
 
 function artshow(art) {
-  var theart = art;
   document.getElementById('art1').style.display = 'block';
-  document.getElementById('head1').innerHTML = head1[theart];
-  document.getElementById('head2').innerHTML = head2[theart];
-  document.getElementById('img1').src = img1[theart];
-  document.getElementById('date1').innerHTML = date1[theart];
-  document.getElementById('art2').innerHTML = write[theart];
+  document.getElementById('head1').innerHTML = head1[art];
+  document.getElementById('head2').innerHTML = head2[art];
+  document.getElementById('img1').src = img1[art];
+  document.getElementById('date1').innerHTML = date1[art];
+  document.getElementById('art2').innerHTML = write[art];
   
 }
 
