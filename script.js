@@ -1,6 +1,6 @@
 var head1 = ["Game's at school"];
 var type = ['pic'];
-var img1 = ['pics/blocked1.png'];
+var img1 = ['pics/blocked2.png'];
 var head2 = ['Have you Every wondered how games are blocked at school(MCPS)?'];
 var write = ['In MCPS schools there are four different blocking systems in place. The first and most annoying called <i>Iboss Cloud</i> this is a blocking system that uses moder AI technolgies to automatically block all sites that have a server connected, unless whitlisted. The Second most annyoing blocking system is <i>ublock</i> a system put inplace by the county. <i>Ublock</i> is a small extetion that can be turned off and on depending on the site. Of course you can turn it off but the truth is its consistently running. Now we get to the third gogaurdian, now we all know about gogaurdian. It is a blocking system connected through google that can block and control students computers. Fourth and the last is the internet, all schools in MCPS are connected to some form of the schools internet which restricts the sites you can access on thier network. Anyways that about sums up the blocking systems used by MCPS county in school. Thanks! :)'];
 var date1 = ['December 16, 2021'];
