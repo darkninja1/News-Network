@@ -120,6 +120,7 @@ close1
   overflow: auto;
   background-color:white;
   color:black;
+  z-index:100;
   display:none;
 }
 #close1 {
@@ -133,6 +134,18 @@ close1
 }
 #close1:hover {
   color:white;
+}
+#head1 {
+  font-size:40px;
+  font-weight:bold;
+}
+#head2 {
+  font-size:25px;
+  font-weight:bold;
+}
+#date1 {
+  color:grey;
+  font-size:7px;
 }
 #art2 {
 }
