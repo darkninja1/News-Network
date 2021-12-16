@@ -6,6 +6,12 @@ var write = ['In MCPS schools there are four different blocking systems in place
 var date1 = ['December 16, 2021'];
 var cit1 = ['Quotes from dom'];
 var vids = ['videos/weather/Forcast 3 16 2021.mp4'];
+var vidsCounter = 0;
+var vidsL = vids.length;
+
+
+
+
 function artshow(art) {
   document.getElementById('art1').style.display = 'block';
   document.getElementById('head1').innerHTML = head1[art];
@@ -26,5 +32,10 @@ for (var i = 0;i < head1.length;i++) {
 }
 
 function videos() {
+  if (vidsCounter == vidsL) {
+    vidsCounter = 0;
+  }
+  vidsCounter += 1;
+  document.getElementById("video1").src = vids[vidsCounter - 1];
   
 }
