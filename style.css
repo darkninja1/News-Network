@@ -6,7 +6,7 @@ body {
 }
 /*Navigation-bar background layer*/
 ul {
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(0, 0, 0);
   list-style-type: none;
   height: 45px;
   position: -webkit-sticky;
@@ -26,20 +26,20 @@ li a {
   display: block;
   padding: 14px 16px;
   text-align: center;
-  color:black;
+  color:rgb(255, 255, 255);
   text-decoration:none;
 }
 /*[Navigation-bar]For all the links hovered over only the one with 'active' class will not turn red*/
 li a:hover:not(.active) {
-  background-color: rgb(192, 192, 192);
+  background-color: rgba(255, 255, 255, 0.295);
   cursor: pointer;
-  color:black;
+  color:rgb(42, 46, 78);
   text-decoration:none;
 }
 /*[Navigation-bar]The active class will be this background color*/
 .active {
-  background-color: rgb(155, 155, 155);
-  color:black;
+  background-color: rgb(49, 64, 92);
+  color:rgb(255, 255, 255);
   text-decoration:none;
 }
 .video {
@@ -151,6 +151,8 @@ close1
 #head1 {
   font-size:40px;
   font-weight:bold;
+  color:rgb(44, 75, 95);
+  
 }
 #head2 {
   font-size:25px;

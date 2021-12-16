@@ -5,7 +5,7 @@ var head2 = ['March 16-17 Weather Forcast 2021','test2'];
 var write = ['blah blah blah','heh'];
 var date1 = ['3/18/2021','5/6/19'];
 var cit1 = ['meh','meg'];
-
+var vids = ['videos/weather/Forcast 3 16 2021.mp4'];
 function artshow(art) {
   document.getElementById('art1').style.display = 'block';
   document.getElementById('head1').innerHTML = head1[art];
@@ -25,3 +25,6 @@ for (var i = 0;i < head1.length;i++) {
   }
 }
 
+function videos() {
+  
+}
