@@ -12,7 +12,7 @@ ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  margin:auto;
+  margin:none;
   padding:0;
   z-index:1000;
 }
@@ -97,7 +97,7 @@ a:hover {
 }
 .frontlink:hover {
   color:rgb(0, 0, 0);
-  text-decoration:underline;
+  /*text-decoration:underline;*/
   font-size:35px;
 }
 .biggest-title {
