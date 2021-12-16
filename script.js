@@ -13,7 +13,7 @@ function artshow(art) {
   document.getElementById('img1').src = img1[art];
   document.getElementById('date1').innerHTML = date1[art];
   document.getElementById('art2').innerHTML = write[art];
-  
+  document.write(art);
 }
 
 for (var i = 0;i < head1.length;i++) {
