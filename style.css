@@ -125,7 +125,7 @@ close1
   overflow: auto;
   background-color:white;
   color:black;
-  z-index:100;
+  z-index:9999;
   display:none;
 }
 #close1 {
@@ -137,9 +137,13 @@ close1
   right:0;
   margin:20px;
   font-size:30px;
+  border:none;
+  outline:none;
+  transition:0.25s linear;
 }
 #close1:hover {
   color:white;
+  cursor:pointer;
 }
 #head1 {
   font-size:40px;
