@@ -37,5 +37,7 @@ function videos() {
   }
   vidsCounter += 1;
   document.getElementById("video1").src = vids[vidsCounter - 1];
-  document.getElementById("video1").onended = videos();
+  document.getElementById("video1").onended = function() {
+    videos();
+  }
 }
