@@ -14,6 +14,7 @@ ul {
   top: 0;
   margin:auto;
   padding:0;
+  z-index:1000;
 }
 /*Navigation-bar links positioning*/
 li {
@@ -103,6 +104,10 @@ hr {
 video {
   margin-inline-start: 10px;
 }
+#art123 {
+  width:100%;
+  height:auto;
+}
 /*
 art1
 art2
@@ -146,6 +151,11 @@ close1
 #date1 {
   color:grey;
   font-size:7px;
+}
+#img1 {
+  width:80%;
+  display: flex;
+  align-self:center;
 }
 #art2 {
 }
