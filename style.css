@@ -119,7 +119,7 @@ date1
 close1
 */
 #art1 {
-  position: fixed;
+  position: absolute;
   width:100%;
   height:100%;
   overflow: auto;
@@ -132,7 +132,7 @@ close1
   background-color:transparent;
   color: rgba(255, 255, 255, 0.562);
   font-weight:bold;
-  position:fixed;
+  position:absolute;
   top:0;
   right:0;
   margin:20px;
