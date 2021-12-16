@@ -43,8 +43,11 @@ function videos() {
     vidsCounter = 0;
   }
   vidsCounter += 1;
+  
   document.getElementById("video1").src = vids[vidsCounter - 1];
   document.getElementById('des1').innerHTML = des[vidsCounter - 1];
+  document.getElementById("video1").load();
+  document.getElementById("video1").play();
   document.getElementById("video1").onended = function() {
     videos();
   }
