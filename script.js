@@ -1,10 +1,10 @@
 var head1 = ['Test1'];
-var type = ['vid'];
+var type = ['pic'];
 var img1 = ['maps/noaa.gif'];
 var head2 = ['March 16-17 Weather Forcast 2021'];
 var write = ['blah blah blah'];
 var date1 = ['3/18/2021'];
-var cit1 = ['doms vid'];
+var cit1 = ['meh'];
 
 
 for (var i = 0;i < head1.length;i++) {
