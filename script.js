@@ -1,10 +1,10 @@
-var head1 = ['Test1'];
-var type = ['pic'];
-var img1 = ['maps/noaa.gif'];
-var head2 = ['March 16-17 Weather Forcast 2021'];
-var write = ['blah blah blah'];
-var date1 = ['3/18/2021'];
-var cit1 = ['meh'];
+var head1 = ['Test1','Test2'];
+var type = ['pic','pic'];
+var img1 = ['maps/noaa.gif','pics/img12.png'];
+var head2 = ['March 16-17 Weather Forcast 2021','test2'];
+var write = ['blah blah blah','heh'];
+var date1 = ['3/18/2021','5/6/19'];
+var cit1 = ['meh','meg'];
 
 
 for (var i = 0;i < head1.length;i++) {
