@@ -190,6 +190,12 @@ footer {
 #des1 {
   color:grey;
 }
+.head21 {
+  color:black;
+}
+.head21:hover {
+  color:rgb(49, 64, 92);
+}
 @media only screen and (max-width: 1200px) {
   #mn1 {
     width:100%;
