@@ -181,8 +181,14 @@ footer {
   background-color:black;
   width:100%;
   color:white;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
 }
 #des1 {
   color:grey;
+}
+@media only screen and (max-width: 1200px) {
+  .mainpic {
+    width:100%;
+  }
+  
 }
