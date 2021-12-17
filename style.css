@@ -47,8 +47,11 @@ li a:hover:not(.active) {
   color:white;
 }
 .video {
-  width:50%;
+  width:75%;
   height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
 }
 .mainpic {
   width:350px;
@@ -187,7 +190,7 @@ footer {
   color:grey;
 }
 @media only screen and (max-width: 1200px) {
-  .mainpic {
+  #mn1 {
     width:100%;
   }
   
