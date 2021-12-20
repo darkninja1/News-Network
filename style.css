@@ -197,6 +197,12 @@ footer {
 .head21:hover {
   color:rgb(53, 96, 175);
 }
+/*Github Pages Special*/
+.silex-runtime .website-min-width {
+  min-width:0;
+}
+
+/*End*/
 @media only screen and (max-width: 1200px) {
   #mn1 {
     width:100%;
