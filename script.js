@@ -20,7 +20,7 @@ var vidsL = vids.length;
 function artshow(art) {
   if (type[art] == 'vid') {
     vidsCounter = art;
-    window.location.replace("https://News-Network.dominikhonzak.repl.co/videos.html");
+    location.replace("https://News-Network.dominikhonzak.repl.co/videos.html");
   }
   else if (type[art] == 'link')  {
     window.location.replace(links[art]);
