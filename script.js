@@ -23,7 +23,7 @@ function artshow(art) {
     window.location.replace("https://News-Network.dominikhonzak.repl.co/videos.html");
   }
   else if (type[art] == 'link')  {
-    location.replace(links[art]);
+    window.location.replace(links[art]);
   }
   else {
     document.getElementById('art1').style.display = 'block';
