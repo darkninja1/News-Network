@@ -3,6 +3,7 @@ body {
   background-color:white;
   color:black;
   font-family: 'Times New Roman', Times, serif;
+  
 }
 /*Navigation-bar background layer*/
 ul {
@@ -204,7 +205,7 @@ footer {
 /*End*/
 @media only screen and (max-width: 1200px) {
   #mn1 {
-    width:100%;
+    width:90%;
   }
   
 }
