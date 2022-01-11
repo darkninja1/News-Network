@@ -20,10 +20,10 @@ var vidsL = vids.length;
 function artshow(art) {
   if (type[art] == 'vid') {
     vidsCounter = art;
-    location.replace("https://News-Network.dominikhonzak.repl.co/videos.html");
+    window.location.replace("https://News-Network.dominikhonzak.repl.co/videos.html");
   }
   else if (type[art] == 'link')  {
-    window.location.replace(links[art]);
+    location.replace(links[art]);
   }
   else {
     document.getElementById('art1').style.display = 'block';
