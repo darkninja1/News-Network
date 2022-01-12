@@ -219,6 +219,14 @@ footer {
 .silex-runtime .website-min-width {
   min-width:0;
 }
+#mn1 {
+  height:50px;
+  max-width:350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 /*End*/
 @media only screen and (max-width: 1200px) {
   #mn1 {
