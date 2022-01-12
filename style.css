@@ -195,10 +195,10 @@ footer {
 .head21 {
   font-weight:400;
   color:black;
-  /*transition: 0.2s linear;*/
+  transition: 0.1s linear;
 }
 .head21:hover {
-  /*color:rgb(53, 96, 175);*/
+  color:rgb(53, 96, 175);
 }
 .head23 {
   font-weight:400;
@@ -209,6 +209,10 @@ footer {
 .head23:hover {
   border:none;
   color:rgb(53, 96, 175);
+}
+.bbb {
+  font-weight:bold;
+  color:black;
 }
 /*Github Pages Special*/
 .silex-runtime .website-min-width {
