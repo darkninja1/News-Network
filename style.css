@@ -193,10 +193,21 @@ footer {
   color:grey;
 }
 .head21 {
+  font-weight:400;
   color:black;
-  transition: 0.2s linear;
+  /*transition: 0.2s linear;*/
 }
 .head21:hover {
+  /*color:rgb(53, 96, 175);*/
+}
+.head23 {
+  font-weight:400;
+  color:black;
+  border-bottom: 3px solid rgba(128, 128, 128, 0.623);
+  transition: 0.3s linear;
+}
+.head23:hover {
+  border:none;
   color:rgb(53, 96, 175);
 }
 /*Github Pages Special*/

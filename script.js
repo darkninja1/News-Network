@@ -3,7 +3,7 @@ var head1 = ["Blocking Systems in MCPS","Drone Cape Henlopen","Unblocked Games a
 //type of link
 var type = ['pic','vid','pic','pic','link','link','link'];
 //type of writing 
-var type2 = ['Annalysis','',];
+var type2 = ['Annalysis','Video','Extra','Signup','Statistics','Games','Health'];
 //img
 var img1 = ['pics/blocked2.png','pics/drone1.png','pics/roll1.png','pics/north.jpg','pics/covid-19.jpg','pics/ttt1.png','pics/health1.png'];
 //sub header
@@ -50,10 +50,10 @@ function artshow(art) {
 
 for (var i = 0;i < head1.length;i++) {
   if (type[i] == "vid") {
-    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div><span class='head21'>"+head2[i]+"</span></div>";
+    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div><span class='head21'><b>"+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
   }
   else {
-    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div><span class='head21'>"+head2[i]+"</span></div>";
+    document.getElementById('art123').innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div><span class='head21'><b>"+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
   }
 }
 
