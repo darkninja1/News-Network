@@ -1,0 +1,67 @@
+<!--https://darkninja1.github.io/News-Network/index.html-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>News Network Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="logo/fav.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <img src='logo/title.png' id='mn1'/>
+    <ul class='topnav' id='topnav'>
+    <li><a onclick="location.href='index.html'">Home&nbsp;&nbsp;</a></li>
+    <li><a onclick="location.href='videos.html'">Video's&nbsp;&nbsp;</a></li>
+    <li><a  onclick="location.href='tech.html'">Tech&nbsp;&nbsp;</a></li>
+    <li><a class='active' onclick="location.href='blair.html'">MBHS&nbsp;&nbsp;</a></li>
+    <li><a  onclick="location.href='mcps.html'">MCPS&nbsp;&nbsp;</a></li>
+    <li><a  onclick="location.href='health.html'">Health&nbsp;&nbsp;</a></li>
+    <li><a  onclick="location.href='extra.html'">Extra&nbsp;&nbsp;</a></li>
+    </ul>
+    <!--
+    <div class='card' onclick="location.href='weather.html'">
+      <h1 class='frontlink'>Weather Forcast</h1>
+      <div class='container'>
+      <img src='maps/noaa.gif' class='mainpic opacityimg'><i class="opacityimg fa fa-play-circle-o centered"></i></img></div>
+      March 16-17 Weather Forcast 2021
+      
+    
+    </div>-->
+    <h1 class='title1'>MBHS</h1>
+    <div id='blair'>
+
+    </div>
+    <div id='art1'>
+      <button id='close1' onclick='document.getElementById("art1").style.display = "none";'>&#10006;</button>
+      <h1 id='head1'></h1>
+      <img id='img1' src='' />
+      <h3 id='head2'></h3>
+      <span id='date1'></span>
+      <p id='art2'></p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <i id='cit1'></i>
+      <br><br>
+    </div>
+    <footer>
+    ©2021 <a href='https://bitrater.repl.co'>Bitrater</a>. All rights Reserved.
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      for (var i = 0;i < head1.length;i++) {
+  if (type[i] == "vid") {
+    
+    document.getElementById(topic1[i]).innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div><span class='head21'><span class='bbb'>•</span><b> "+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
+    
+  }
+  else {
+    document.getElementById(topic1[i]).innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div><span class='head21'><span class='bbb'>•</span><b> "+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
+    
+    
+  }
+}
+    </script>
+  </body>
+</html>
