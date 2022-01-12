@@ -204,7 +204,7 @@ footer {
   font-weight:400;
   color:black;
   border-bottom: 3px solid rgba(128, 128, 128, 0.623);
-  transition: 0.3s linear;
+  transition: 0.1s linear;
 }
 .head23:hover {
   border:none;
