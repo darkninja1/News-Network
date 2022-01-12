@@ -227,10 +227,18 @@ footer {
   margin-right: auto;
   
 }
+.title1 {
+  font-size:40px;
+  color:rgb(31, 131, 177);
+  text-align:center;
+}
 /*End*/
 @media only screen and (max-width: 1200px) {
   #mn1 {
     width:90%;
+  }
+  .title1 {
+    text-align:left;
   }
   
 }
