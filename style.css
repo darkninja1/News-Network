@@ -99,9 +99,10 @@ a:hover {
   color:rgb(0, 0, 0);
   text-decoration:none;
   font-size:35px;
+  transition: 0.1s linear;
 }
 .frontlink:hover {
-  color:rgb(0, 0, 0);
+  color:rgb(22, 111, 163);
   /*text-decoration:underline;*/
   font-size:35px;
 }
@@ -193,7 +194,7 @@ footer {
 }
 .head21 {
   color:black;
-  transition: 0.25s linear;
+  transition: 0.2s linear;
 }
 .head21:hover {
   color:rgb(53, 96, 175);
