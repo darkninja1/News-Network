@@ -17,9 +17,9 @@
     <li><a onclick="location.href='videos.html'">Video's&nbsp;&nbsp;</a></li>
     <li><a  onclick="location.href='tech.html'">Tech&nbsp;&nbsp;</a></li>
     <li><a class='active' onclick="location.href='blair.html'">MBHS&nbsp;&nbsp;</a></li>
-    <li><a  onclick="location.href='mcps.html'">MCPS&nbsp;&nbsp;</a></li>
-    <li><a  onclick="location.href='health.html'">Health&nbsp;&nbsp;</a></li>
-    <li><a  onclick="location.href='extra.html'">Extra&nbsp;&nbsp;</a></li>
+    <li><a onclick="location.href='mcps.html'">MCPS&nbsp;&nbsp;</a></li>
+    <li><a onclick="location.href='health.html'">Health&nbsp;&nbsp;</a></li>
+    <li><a onclick="location.href='extra.html'">Extra&nbsp;&nbsp;</a></li>
     </ul>
     <!--
     <div class='card' onclick="location.href='weather.html'">
@@ -50,18 +50,7 @@
     </footer>
     <script src="script.js"></script>
     <script>
-      for (var i = 0;i < head1.length;i++) {
-  if (type[i] == "vid") {
-    
-    document.getElementById(topic1[i]).innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div><span class='head21'><span class='bbb'>•</span><b> "+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
-    
-  }
-  else {
-    document.getElementById(topic1[i]).innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div><span class='head21'><span class='bbb'>•</span><b> "+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
-    
-    
-  }
-}
+      ex1();
     </script>
   </body>
 </html>
