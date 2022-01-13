@@ -5,7 +5,7 @@ var type = ['pic','vid','pic','pic','link','link','link'];
 //type of writing 
 var type2 = ['Annalysis','Video','Extra','Signup','Statistics','Games','Health'];
 //topic
-var topic1 = ['tech','extra','mcps','blair','health','extra','health'];
+var topic1 = ['mcps','extra','mcps','blair','health','extra','health'];
 //img
 var img1 = ['pics/blocked2.png','pics/drone1.png','pics/roll1.png','pics/north.jpg','pics/covid-19.jpg','pics/ttt1.png','pics/health1.png'];
 //sub header
