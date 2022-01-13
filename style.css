@@ -118,9 +118,10 @@ hr {
 video {
   margin-inline-start: 10px;
 }
-#art123,#tech,#blair,#mcps,#health,#extra {
+#art123,#tech1,#blair1,#mcps1,#health1,#extra1 {
   width:100%;
   height:auto;
+  display:block;
 }
 /*
 art1
