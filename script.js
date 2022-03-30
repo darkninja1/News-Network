@@ -68,11 +68,13 @@ function videos() {
   }
 }
 function ex1() {
-  for (var i = 0;i < topic1.length;i++) {
-    if (type[i] == "vid") {
+  for (var i = 0;i < head1.length;i++) {
+    var myEle = document.getElementById(topic1[i]+"1");
+    if (type[i] == 'vid' && myEle) {
       document.getElementById(topic1[i]+"1").innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'><i class='opacityimg fa fa-play-circle-o centered'></i></img></div><span class='head21'><span class='bbb'>•</span><b> "+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
     }
-    else {
+    else if ((type[i] == 'pic' || type[i] == 'link') && myEle) {
+      //document.write("hi");
       document.getElementById(topic1[i]+"1").innerHTML += "<div class='card' onclick='artshow("+i+")'><h1 class='frontlink'>"+head1[i]+"</h1><div class='container'><img src='"+img1[i]+"' class='mainpic opacityimg'></img></div><span class='head21'><span class='bbb'>•</span><b> "+type2[i]+": </b><span class='head23'>"+head2[i]+"</span></div>";
     }
   }
